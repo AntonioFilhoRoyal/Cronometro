@@ -1,0 +1,125 @@
+body{
+    margin: 0 auto;
+    box-sizing: border-box;
+    background-color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.main{
+    margin: 60px auto;
+    background-color: aliceblue;
+    height: 24rem;
+    width: 50%;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.areaCronometro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.relogio{
+    font-size: 5rem;
+}
+
+.iniciar, .pausar, .zerar{
+    font-size: 2.2rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    cursor: pointer;
+    background-color: rgb(127, 255, 212);
+    border-radius: 10px;
+    border: 1px solid rgb(127, 255, 212);
+    height: 5rem;
+    width: 10rem;
+    
+}
+
+.iniciar:hover{
+    background-color: rgb(84, 209, 168);
+    border: 1px solid rgb(84, 209, 168);
+}
+
+.pausar:hover{
+    background-color: rgb(84, 209, 168);
+    border: 1px solid rgb(84, 209, 168);
+}
+
+.zerar:hover{
+    background-color: rgb(84, 209, 168);
+    border: 1px solid rgb(84, 209, 168);
+}
+
+@media (max-width: 1000px){
+    .iniciar, .pausar, .zerar{
+        font-size: 2rem;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        height: 5rem;
+        width: 8.5rem;
+    }
+     
+}
+
+@media (max-width: 850px){
+    .iniciar, .pausar, .zerar{
+        font-size: 1.5rem;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        height: 4rem;
+        width: 7.5rem;
+    }
+     
+}
+
+@media (max-width: 750px){
+    .iniciar, .pausar, .zerar{
+        font-size: 1.3rem;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        height: 3.5rem;
+        width: 6rem;
+    }
+     
+}
+
+@media (max-width: 650px){
+    .relogio{
+        font-size: 4.5rem;
+    }
+    .iniciar, .pausar, .zerar{
+        font-size: 1.2rem;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        height: 3rem;
+        width: 5.3rem;
+    }
+     
+     
+}
+
+@media (max-width: 590px){
+    .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        
+    } 
+    .relogio{
+        font-size: 3.6rem; 
+    }
+    .iniciar, .pausar, .zerar{
+        font-size: 1.1rem;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        height: 3rem;
+        width: 5.3rem;
+        margin-top: 0.4rem;
+    }
+}
+     
+@media (max-width: 450px){
+    .relogio{
+        font-size: 3.1rem;
+}   
+}
